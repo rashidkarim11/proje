@@ -17,10 +17,10 @@
     <header>
       <div class="header-menu-position">
         <nav class="left-menu">
-          <a href="#">Home</a>
-          <a href="#">Categories</a>
-          <a href="#">About</a>
-          <a href="#">Contact</a>
+          <a href="#Home">Home</a>
+          <a href="#Categories">Categories</a>
+          <a href="#about">About</a>
+          <a href="#Contact">Contact</a>
         </nav>
 
         <nav class="left-menu-hamburger">
@@ -28,19 +28,19 @@
         </nav>
 
         <div class="right-menu">
-          <button>login</button>
+          <button class="btn">login</button>
         </div>
       </div>
     </header>
     <hr />
 
-    <main>
+    <main id="Home">
       <div class="main-title">
         <h1>Lorem lorem</h1>
         <h2>description</h2>
       </div>
 
-      <section>
+      <section id="about">
         <div class="main-articles">
           <div class="article-image-round">
             <a href="#">
@@ -81,7 +81,7 @@
         </div>
       </section>
 
-      <div class="article-aside-flex">
+      <section class="article-aside-flex">
         <div class="article-column">
           <article>
             <div class="article-content">
@@ -119,8 +119,8 @@
           </article>
 
           <article>
-            <div class="article-content">
-              <h2>Donec quam felis</h2>
+            <div class="article-content" id="Categories">
+              <h2>Categories</h2>
               <p class="article-date">Friday, March, 1, 2019</p>
               <img
                 src="./daniil-silantev-574966-unsplash.jpg"
@@ -182,10 +182,10 @@
           </div>
           <hr />
         </aside>
-      </div>
+      </section>
     </main>
 
-    <footer>
+    <footer id="Contact">
       <div>
         <p>
           Nam quam nunc, blandit vel, luctus pulvinar, hendrerit id, lorem.
